@@ -1,0 +1,10 @@
+C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\bin\Debug\netcoreapp3.0\RPPOON_LV6_67.exe
+C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\bin\Debug\netcoreapp3.0\RPPOON_LV6_67.deps.json
+C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\bin\Debug\netcoreapp3.0\RPPOON_LV6_67.runtimeconfig.json
+C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\bin\Debug\netcoreapp3.0\RPPOON_LV6_67.runtimeconfig.dev.json
+C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\bin\Debug\netcoreapp3.0\RPPOON_LV6_67.dll
+C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\bin\Debug\netcoreapp3.0\RPPOON_LV6_67.pdb
+C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\obj\Debug\netcoreapp3.0\RPPOON_LV6_67.AssemblyInfoInputs.cache
+C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\obj\Debug\netcoreapp3.0\RPPOON_LV6_67.AssemblyInfo.cs
+C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\obj\Debug\netcoreapp3.0\RPPOON_LV6_67.dll
+C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\obj\Debug\netcoreapp3.0\RPPOON_LV6_67.pdb
