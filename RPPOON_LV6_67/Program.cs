@@ -23,16 +23,17 @@ namespace RPPOON_LV6_67
             }
             while (entered != "-1");
             Console.Clear();
+
             Console.WriteLine("Zadatak 7:\n");
             PasswordValidator validator = new PasswordValidator(new StringDigitChecker());
             validator.AddCheck(new StringLengthChecker(5));
             validator.AddCheck(new StringUpperCaseChecker());
-            validator.AddCheck(new StringLowerCaseChecker());
+            validator.AddCheck(new StringLowerCaseChecker());           
             do
             {
                 Console.WriteLine("\nEnter password to try out or -1 to exit: ");
                 entered = Console.ReadLine();
-                if (entered != "-1") stringChecker.Check(entered);
+                if (entered != "-1") validator.Check(entered);
             }
             while (entered != "-1");
             Console.WriteLine("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-\n");

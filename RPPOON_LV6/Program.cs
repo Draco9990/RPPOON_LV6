@@ -12,7 +12,7 @@ namespace RPPOON_LV6_1
             notebook.AddNote(new Note("Rijesiti LV6", "Rijesiti LV6 iz RPPOONa"));
             notebook.AddNote(new Note("Rijesiti kolokvij", "Rijesiti kolokvij iz xy"));
             notebook.AddNote(new Note("Rijesiti z", "Rijesiti!"));
-            Iterator iterator = (Iterator)notebook.GetIterator();
+            IAbstractIterator iterator = notebook.GetIterator();
             for (Note currNote = iterator.First(); !iterator.IsDone; currNote = iterator.Next())
             {
                 currNote.Show();

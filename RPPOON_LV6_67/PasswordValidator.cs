@@ -6,13 +6,12 @@ namespace RPPOON_LV6_67
 {
     class PasswordValidator
     {
-        public StringChecker first;
-        public StringChecker last;
+        private StringChecker first;
+        private StringChecker last;
 
         public PasswordValidator(StringChecker first)
         {
-            this.first = first;
-            this.last = first;
+            this.first = this.last = first;
         }
 
         public void AddCheck(StringChecker next)
@@ -21,9 +20,9 @@ namespace RPPOON_LV6_67
             last = next;
         }
 
-        public void Check(string password)
+        public bool Check(string password)
         {
-            first.Check(password);
+            return first.Check(password);
         }
     }
 }

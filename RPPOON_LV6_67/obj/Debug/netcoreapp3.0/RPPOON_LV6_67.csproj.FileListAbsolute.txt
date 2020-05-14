@@ -8,3 +8,4 @@ C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\obj\Debug\netcoreapp3.0
 C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\obj\Debug\netcoreapp3.0\RPPOON_LV6_67.AssemblyInfo.cs
 C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\obj\Debug\netcoreapp3.0\RPPOON_LV6_67.dll
 C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\obj\Debug\netcoreapp3.0\RPPOON_LV6_67.pdb
+C:\Users\Draco\Documents\GitHub\RPPOON_LV6\RPPOON_LV6_67\obj\Debug\netcoreapp3.0\RPPOON_LV6_67.csprojAssemblyReference.cache

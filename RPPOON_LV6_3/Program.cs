@@ -19,7 +19,10 @@ namespace RPPOON_LV6_3
                 Console.WriteLine("(4) - Print saved data");
                 Console.WriteLine("(5) - Store data");
                 if (caretaker.Count() > 0)
+                {
                     Console.WriteLine("(6) - Restore data");
+                    Console.WriteLine("(7) - Clear saved data");
+                }
                 Console.WriteLine("(0) - Exit");
                 choice = Convert.ToInt32(Console.ReadLine());
                 Console.Clear();
@@ -47,6 +50,14 @@ namespace RPPOON_LV6_3
                         caretaker.PrintStates();
                         Console.WriteLine("\nEnter restore point index: ");
                         note.RestoreState(caretaker.GetState(Convert.ToInt32(Console.ReadLine())));
+                        break;
+                    case 7:
+                        if (caretaker.Count() == 0) break;
+                        caretaker.PrintStates();
+                        Console.WriteLine("\nEnter restore point index or -1 to clear all: ");
+                        int selection = Convert.ToInt32(Console.ReadLine());
+                        if (selection == -1) caretaker.ClearAll();
+                        else caretaker.DeleteState(selection);
                         break;
                 }
             }

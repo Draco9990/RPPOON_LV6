@@ -18,5 +18,4 @@ namespace RPPOON_LV6_4
             this.MementoTime = DateTime.Now;
         }
     }
-
 }
